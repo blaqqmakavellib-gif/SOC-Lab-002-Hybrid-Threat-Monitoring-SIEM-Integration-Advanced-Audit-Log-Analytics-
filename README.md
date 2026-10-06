@@ -13,7 +13,7 @@ The project was executed across four main phases to build an active detection pi
     *   Transitioned the Windows endpoint from "Basic" to **Advanced Audit Policy Configuration** using `secpol.msc` to capture high-risk kernel telemetry.
     *   Targeted granular tracking for **Logon/Logoff**, **Process Creation (Event ID 4688)** for living-off-the-land binaries, and sensitive **Object Access**.
     *   *Configuration Preview:*
-        > ![Advanced Audit Policy Configuration](./images/advanced_audit_policy.png)
+         ![](Advance-audit-policy.png)
 
 *   **Phase 2: SIEM Integration & Normalization**
     *   Ingested raw, siloed Windows Security Event logs into a centralized **Splunk Enterprise** instance.
@@ -23,7 +23,7 @@ The project was executed across four main phases to build an active detection pi
     *   Analyzed authentication failure patterns (**Event ID 4625**) using temporal timecharts and statistical breakdowns.
     *   Identified targeted high-privilege accounts (`LocalAdmin`, `QAZEEMADMIN`) alongside high-volume automated scan traffic (`NULL` values).
     *   *SIEM Monitoring Dashboard:*
-        > ![SIEM Monitoring and Threat Analysis](./images/siem_monitoring.png)
+         ![](SIEM.png)
 
 *   **Phase 4: Proactive Mitigation, Hardening & Account Lockout Policy**
     *   Enforced an **Account Lockout Policy** configured via Group Policy to lock out accounts after **5 invalid login attempts**.
@@ -63,4 +63,13 @@ The project was executed across four main phases to build an active detection pi
 └── README.md                # Project documentation and write-up
 
 ```
+🔗 Resources & Documentation
+Lab Report: You can view or download the complete detailed report here.
 
+👤 Author
+Qazeem Samshudeen Temitope (Blaqqcipher)
+
+
+Email Contact: qazeemsamshudeen@gmail.com
+
+LinkedIn Profile: Qazeem samshudeen Temitope   https://www.linkedin.com/in/qazeem-samshudeen-94b314398
