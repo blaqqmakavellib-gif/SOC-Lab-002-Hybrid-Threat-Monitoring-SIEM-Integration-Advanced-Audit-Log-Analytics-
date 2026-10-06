@@ -58,16 +58,17 @@ The project was executed across four main phases to build an active detection pi
 ```text
 ├── images/                  
 │   ├── advanced_audit_policy.png    # Phase 1: secpol.msc / Advanced Audit Policy setup
-│   └── siem_monitoring.png          # Phase 3: Splunk monitoring dashboard & event analytics
-├── report/                  # Official PDF lab documentation (SOC_Report_W11_Hardening_2026_Qazeem.pdf)
-└── README.md                # Project documentation and write-up
+│   ├── phase3-behavioral-analysis/  # SPL queries, event analytics, and Splunk dashboards
+│   └── phase4-mitigation-hardening/ # Account lockout policy config & firewall blocking rules
+├── report/                          # Official PDF lab documentation (SOC_Report_W11_Hardening_2026_Qazeem.pdf)
+└── README.md                        # Project documentation and write-up
 
 ```
 🔗 Resources & Documentation
 Lab Report: You can view or download the complete detailed report here.
 
 👤 Author
-Qazeem Samshudeen Temitope (Blaqqcipher)
+Qazeem Samshudeen Temitope (BlaqqSec)
 
 
 Email Contact: qazeemsamshudeen@gmail.com
